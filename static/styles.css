@@ -1,0 +1,88 @@
+body {
+    margin-bottom: 20px;
+    height: 100%;
+}
+p { font-size: medium }
+@media (min-width: 600px) {
+    .p {
+        font-size: xx-large;
+    }
+}
+section { 
+    align-content: center;
+}
+.sheet {
+    padding:40px;
+}
+.part-letra p {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word; 
+}
+
+.triki {
+    display: flex;
+    flex-wrap: wrap;
+}
+.triki-note {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid  black;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 50px;
+}
+.triki-group {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display:flex;
+}
+.triki-note--itxi {
+    background-color: #fff;
+    color: #000;
+}
+.triki-note--ireki {
+    background-color: #000;
+    color: #fff;
+}
+
+.chords { 
+    display:flex;
+}
+.chord { 
+    border: 1px solid  black;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+h1 {
+    font-size: 3rem;
+   text-align: center;
+}
+h2 {
+        font-size: 2.5rem;
+            background-color: #eee;
+        text-align: center;
+        padding: 10px;
+}
+h3 {
+        font-size: 2rem
+}
+li{
+    margin: 10px 0;
+}
+li h2 {
+    margin: 0;
+}
+a {
+    color: darkred;
+}

@@ -1,0 +1,19 @@
+{# index.twig #}
+{% extends "layout.twig" %}
+ 
+{% block page %}
+    <section class="container">
+        <header>
+            <h1>Mongo Book</h1>
+        </header>
+        <ul class="song-list">
+            {% for song in songs %}
+                <li>
+                    <h2><a href="songs/{{song.id}}">
+                        {{ song.title }}
+                    </a></h2>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endblock %}
