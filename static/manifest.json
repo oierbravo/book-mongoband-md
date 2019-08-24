@@ -1,0 +1,16 @@
+{"dir" : "ltr",
+    "lang" : "en",
+    "name" : "",
+    "scope" : "/",
+    "display" : "browser",
+    "start_url" : "https://bookv2.mongoband.org/",
+    "short_name" : "",
+    "theme_color" : "transparent",
+    "description" : "Mongo Book",
+    "orientation" : "any",
+    "background_color" : "transparent",
+    "related_applications" : "",
+    "prefer_related_applications" : "false",
+    "generated" : "true",
+    "icons" : [
+    ]}
