@@ -7,7 +7,6 @@ function remarkPluginSongLinks(tree) {
       visit(tree, 'link', visitor);
   
       function visitor(node,file) {
-        console.log(node.title);
         if(node.title === null){
           node.title = node.children[0].value;
         }

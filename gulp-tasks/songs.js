@@ -111,6 +111,11 @@ function songsIndex(cb){
                 songs:songList
             };
         }))
+        .pipe(Data(function(){
+            return {
+                title: 'Mongo Book'
+            }
+        }))
         .pipe(Twig({
           
             base:'templates',
