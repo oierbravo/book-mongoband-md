@@ -37,6 +37,13 @@ section {
     font-weight: bold;
     line-height: 50px;
 }
+.triki-space {
+
+    width: 50px;
+    height: 50px;
+    border: px solid  black;
+
+}
 .triki-group {
     margin-right: 10px;
     margin-bottom: 10px;

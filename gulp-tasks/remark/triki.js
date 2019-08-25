@@ -29,6 +29,17 @@ function remarkPluginTriki(tree) {
                         },
                         children: [{type:'text',value:el.replace('+','')}]
                     }
+                    
+                    if(el === '|'){
+                        console.log(el);
+                        child.data = {
+                            hProperties : {
+                                className:'triki-space'
+                            },
+                            hName:'div'
+                        }
+                        child.children = []
+                    }
                     groupChildren.push(child)  
                 });
                 
