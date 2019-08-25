@@ -15,7 +15,7 @@ gulp.task("favicon", function () {
     display: "standalone",
     orientation: "any",
     start_url: "/",
-    version: 1.0,
+    version: 1.1,
     logging: false,
     html: "index.html",
     pipeHTML: true,
