@@ -2,7 +2,7 @@
 title: Eres un Hada
 author: Cojon Prieto y los Huajalotes
 ---
-# Txus
+# Eres un Hada
 ## Letra
 El verano se fue pero tú llegaste a mí,
 furioso el viento del norte ruge helando todo,

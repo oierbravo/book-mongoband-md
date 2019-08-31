@@ -31,3 +31,5 @@ chords: Bb F Eb F
 ### Riff
 triki: +7,+7,+8,+5,+8,+7,+9,+9,+7,+9,11,+9,+7,+9,11,+9,+7
 
+## Audios
+- [Original](txus-kojon-prieto-y-los-huajolotes)
