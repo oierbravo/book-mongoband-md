@@ -20,7 +20,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-twig": "^1.2.0",
     "mdast-util-to-string": "^1.0.6",
-    "remark-html": "^10.0.0",
+    "remark-html": "^13.0.2",
     "remark-normalize-headings": "^1.0.2",
     "remark-parse": "^7.0.1",
     "remark-preset-lint-markdown-style-guide": "^2.1.3",
